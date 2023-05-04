@@ -6,8 +6,8 @@
     width: 100%;
 }
 
-.chart__pr,
-.chart__master {
+.charts__pr,
+.charts__master {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +19,22 @@
     border: 1px solid;
 }
 
-.chart__pr {
+.charts__pr {
     margin-bottom: 1rem;
+}
+
+.charts__controls {
+    display: flex;
+    gap: 1rem;
+}
+
+.button {
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    opacity: 0.75;
 }
