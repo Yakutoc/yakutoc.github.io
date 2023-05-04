@@ -1,0 +1,15 @@
+export const colors = {
+	'PR documentation': '#39A0ED',
+	'Cypress component testing react-17': '#645DD7',
+	'Cypress component testing': '#FB62F6',
+	'Main Documentation and Storybook': '#488B49',
+	'PR Documentation and Storybook': '#BABF95',
+	'PR demos': '#B5BAD0',
+	'Component Performance Testing': '#6A0136',
+	Release: '#87CBAC',
+	'Unit tests': '#8DE4FF',
+	'PR theme-builder': '#DFBBB1',
+	'Build theme-builder': '#DBFF76',
+	'Typescript coverage': '#03B5AA',
+	'Versionate Docs': '#5688C7',
+};
