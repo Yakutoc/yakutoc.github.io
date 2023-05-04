@@ -1,14 +1,15 @@
 {
   "name": "plasma_workflows_charts",
+  "author": "Salute Frontend Team <salute.developers@gmail.com>",
   "version": "0.0.1",
   "description": "",
+  "keywords": ["Графики", "метрика", "workflows"],
+  "license": "ISC",
   "scripts": {
+    "prebuild": "rm -rf docs",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir docs --no-source-maps"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "parcel": "^2.8.3",
     "prettier": "^2.8.8",
@@ -16,5 +17,9 @@
   },
   "dependencies": {
     "chart.js": "^4.3.0"
-  }
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+}
 }
