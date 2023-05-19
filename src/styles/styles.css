@@ -6,13 +6,18 @@
     width: 100%;
 }
 
+.charts__title {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
 .charts__pr,
 .charts__master {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
     padding: 0.75rem;
     width: 1024px;
 

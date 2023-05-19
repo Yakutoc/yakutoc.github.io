@@ -20,13 +20,11 @@ import { dataFormatter, handleClick } from './utils';
 	const chartPR = getChartInstance({
 		chartItem: chartCanvasPr,
 		datasets: chartDatasetPr,
-		title: 'Workflows by pull requests',
 	});
 
 	const chartMaster = getChartInstance({
 		chartItem: chartCanvasMaster,
 		datasets: chartDatasetMaster,
-		title: 'Workflows by master branch',
 	});
 
 	const buttonHiddeAllPr = document.getElementById('hiddeAllPr');

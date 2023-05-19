@@ -8,10 +8,9 @@ Chart.register(Legend, LineController, CategoryScale, LinearScale, PointElement,
 type ChartInstanceConfig = {
 	chartItem: ChartItem;
 	datasets: DatasetItem[];
-	title: string;
 };
 
-export function getChartInstance({ chartItem, datasets, title }: ChartInstanceConfig) {
+export function getChartInstance({ chartItem, datasets }: ChartInstanceConfig) {
 	return new Chart(chartItem, {
 		type: 'line',
 		data: { datasets },
@@ -22,10 +21,6 @@ export function getChartInstance({ chartItem, datasets, title }: ChartInstanceCo
 				yAxisKey: 'value',
 			},
 			plugins: {
-				title: {
-					display: true,
-					text: title,
-				},
 				legend: {
 					position: 'right',
 				},
