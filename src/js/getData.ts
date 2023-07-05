@@ -21,7 +21,7 @@ import * as data20 from '../../data/2023-05-29..2023-06-04.json';
 import * as data21 from '../../data/2023-06-05..2023-06-11.json';
 import * as data22 from '../../data/2023-06-12..2023-06-18.json';
 import * as data23 from '../../data/2023-06-19..2023-06-25.json';
-import * as data24 from '../../data/2023-06-26..2023-06-28.json';
+import * as data24 from '../../data/2023-06-26..2023-07-02.json';
 
 /**
  * Коллекция данных
