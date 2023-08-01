@@ -25,6 +25,7 @@ import * as data24 from '../../data/2023-06-26..2023-07-02.json';
 import * as data25 from '../../data/2023-07-03..2023-07-09.json';
 import * as data26 from '../../data/2023-07-10..2023-07-16.json';
 import * as data27 from '../../data/2023-07-17..2023-07-23.json';
+import * as data28 from '../../data/2023-07-24..2023-07-30.json';
 
 /**
  * Коллекция данных
@@ -58,5 +59,6 @@ export function getData() {
 		...Object.values(data25),
 		...Object.values(data26),
 		...Object.values(data27),
+		...Object.values(data28),
 	];
 }
