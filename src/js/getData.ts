@@ -36,6 +36,13 @@ import * as data35 from '../../data/2023-09-11..2023-09-17.json';
 import * as data36 from '../../data/2023-09-18..2023-09-24.json';
 import * as data37 from '../../data/2023-09-25..2023-10-01.json';
 import * as data38 from '../../data/2023-10-02..2023-10-08.json';
+import * as data39 from '../../data/2023-10-09..2023-10-15.json';
+import * as data40 from '../../data/2023-10-16..2023-10-22.json';
+import * as data41 from '../../data/2023-10-23..2023-10-29.json';
+import * as data42 from '../../data/2023-10-30..2023-11-05.json';
+import * as data43 from '../../data/2023-11-06..2023-11-12.json';
+import * as data44 from '../../data/2023-11-13..2023-11-19.json';
+import * as data45 from '../../data/2023-11-20..2023-11-26.json';
 
 /**
  * Коллекция данных
@@ -80,5 +87,12 @@ export function getData() {
 		...Object.values(data36),
 		...Object.values(data37),
 		...Object.values(data38),
+		...Object.values(data39),
+		...Object.values(data40),
+		...Object.values(data41),
+		...Object.values(data42),
+		...Object.values(data43),
+		...Object.values(data44),
+		...Object.values(data45),
 	];
 }
