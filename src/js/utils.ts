@@ -14,7 +14,7 @@ export const median = (arr: number[]) => {
 };
 
 export const dataFormatter =
-	(key: 'master' | 'pull_requests') =>
+	(key: 'pull_requests') =>
 	(acc, { name, range, [key]: { duration } }: RawDataItem): Dataset => {
 		const data = {
 			value: duration ? Math.round(duration / 60000) : 0,

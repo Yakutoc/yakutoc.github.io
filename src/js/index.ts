@@ -7,26 +7,28 @@ import { dataFormatter, handleClick } from './utils';
 	const raw = getData();
 
 	const datasetsPullRequests = raw.reduce(dataFormatter('pull_requests'), {});
-
-	const datasetsMaster = raw.reduce(dataFormatter('master'), {});
-
-	const chartDatasetPr = getDataset(datasetsPullRequests);
-
-	const chartDatasetMaster = getDataset(datasetsMaster);
-
+	
+	const chartDatasetPr = getDataset(datasetsPullRequests).filter(({ label }) => {
+		return ![
+			'Main Documentation and Storybook',
+			'Semgrep',
+			'PR demos',
+			'Versionate Docs',
+			'Clean up S3',
+			'Cleanup caches by a branch',
+			'.github/workflows/cypress-react-17.yml',
+			'Create release PR and generate changelog',
+			'Lint/Unit tests'
+		].includes(label);
+	});
+	
 	const chartCanvasPr = document.getElementById('chart-pr') as HTMLCanvasElement;
-	const chartCanvasMaster = document.getElementById('chart-master') as HTMLCanvasElement;
 
 	const chartPR = getChartInstance({
 		chartItem: chartCanvasPr,
 		datasets: chartDatasetPr,
 	});
-
-	const chartMaster = getChartInstance({
-		chartItem: chartCanvasMaster,
-		datasets: chartDatasetMaster,
-	});
-
+	
 	const buttonHiddeAllPr = document.getElementById('hiddeAllPr');
 	const buttonShowAllPr = document.getElementById('showAllPr');
 
@@ -38,18 +40,5 @@ import { dataFormatter, handleClick } from './utils';
 	buttonShowAllPr &&
 		buttonShowAllPr.addEventListener('click', () => {
 			chartDatasetPr.forEach(handleClick(chartPR, true));
-		});
-
-	const buttonHiddeAllMaster = document.getElementById('hiddeAllMaster');
-	const buttonShowAllMaster = document.getElementById('showAllMaster');
-
-	buttonHiddeAllMaster &&
-		buttonHiddeAllMaster.addEventListener('click', () => {
-			chartDatasetPr.forEach(handleClick(chartMaster, false));
-		});
-
-	buttonShowAllMaster &&
-		buttonShowAllMaster.addEventListener('click', () => {
-			chartDatasetPr.forEach(handleClick(chartMaster, true));
 		});
 })();
