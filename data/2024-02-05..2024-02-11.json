@@ -1,0 +1,288 @@
+{
+  "Code Quality Check":{
+    "id":87449318,
+    "name":"Code Quality Check",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  ".github/workflows/android-lint-test-check.yml":{
+    "id":87433746,
+    "name":".github/workflows/android-lint-test-check.yml",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Reusable workflow (Authorize)":{
+    "id":76687061,
+    "name":"Reusable workflow (Authorize)",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Change detection":{
+    "id":60782664,
+    "name":"Change detection",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Clean up S3":{
+    "id":24855719,
+    "name":"Clean up S3",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":94000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Cleanup caches by a branch":{
+    "id":58956968,
+    "name":"Cleanup caches by a branch",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":17000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Create release PR and generate changelog":{
+    "id":84053003,
+    "name":"Create release PR and generate changelog",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Cypress component testing by schedule":{
+    "id":62317581,
+    "name":"Cypress component testing by schedule",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":1049000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Cypress reusable workflow":{
+    "id":60348949,
+    "name":"Cypress reusable workflow",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Cypress component testing react-17":{
+    "id":49586857,
+    "name":"Cypress component testing react-17",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Cypress component testing react-18":{
+    "id":37971855,
+    "name":"Cypress component testing react-18",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Cypress component testing":{
+    "id":59362969,
+    "name":"Cypress component testing",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":886000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  ".github/workflows/cypress-react-17.yml":{
+    "id":59589715,
+    "name":".github/workflows/cypress-react-17.yml",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Deploy documentation and storybook artifacts to DEV stage":{
+    "id":85846405,
+    "name":"Deploy documentation and storybook artifacts to DEV stage",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "PR Documentation and Storybook [PR into DEV branch]":{
+    "id":24855722,
+    "name":"PR Documentation and Storybook [PR into DEV branch]",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":1425000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Documentation and Storybook [DEV => MASTER]":{
+    "id":83494837,
+    "name":"Documentation and Storybook [DEV => MASTER]",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  ".github/workflows/e2e.yml":{
+    "id":59581206,
+    "name":".github/workflows/e2e.yml",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "PR demos":{
+    "id":24855723,
+    "name":"PR demos",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Build demos":{
+    "id":24855724,
+    "name":"Build demos",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Perftest (base branch cache)":{
+    "id":58708431,
+    "name":"Perftest (base branch cache)",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":1873000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  ".github/workflows/performance-test-common.yml":{
+    "id":59609317,
+    "name":".github/workflows/performance-test-common.yml",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Component Performance Testing":{
+    "id":44020421,
+    "name":"Component Performance Testing",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":1647000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  ".github/workflows/performance-test-processing.yml":{
+    "id":59609316,
+    "name":".github/workflows/performance-test-processing.yml",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Component performance testing":{
+    "id":53903776,
+    "name":"Component performance testing",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Release":{
+    "id":65678235,
+    "name":"Release",
+    "master":{
+
+    },
+    "pull_requests":{
+      "duration":899000
+    },
+    "range":"2024-02-05..2024-02-11"
+  },
+  "Publish reusable workflow":{
+    "id":66619134,
+    "name":"Publish reusable workflow",
+    "master":{
+
+    },
+    "pull_requests":{
+
+    },
+    "range":"2024-02-05..2024-02-11"
+  }
+}

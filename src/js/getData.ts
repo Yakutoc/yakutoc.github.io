@@ -43,6 +43,19 @@ import * as data42 from '../../data/2023-10-30..2023-11-05.json';
 import * as data43 from '../../data/2023-11-06..2023-11-12.json';
 import * as data44 from '../../data/2023-11-13..2023-11-19.json';
 import * as data45 from '../../data/2023-11-20..2023-11-26.json';
+import * as data46 from '../../data/2023-11-27..2023-12-03.json';
+import * as data47 from '../../data/2023-12-04..2023-12-10.json';
+import * as data48 from '../../data/2023-12-11..2023-12-17.json';
+import * as data49 from '../../data/2023-12-18..2023-12-24.json';
+import * as data50 from '../../data/2023-12-25..2023-12-31.json';
+import * as data51 from '../../data/2024-01-01..2024-01-07.json';
+import * as data52 from '../../data/2024-01-08..2024-01-14.json';
+import * as data53 from '../../data/2024-01-15..2024-01-21.json';
+import * as data54 from '../../data/2024-01-22..2024-01-28.json';
+import * as data55 from '../../data/2024-01-29..2024-02-04.json';
+import * as data56 from '../../data/2024-02-05..2024-02-11.json';
+import * as data57 from '../../data/2024-02-12..2024-02-18.json';
+import * as data58 from '../../data/2024-02-19..2024-02-25.json';
 
 /**
  * Коллекция данных
@@ -94,5 +107,18 @@ export function getData() {
 		...Object.values(data43),
 		...Object.values(data44),
 		...Object.values(data45),
+		...Object.values(data46),
+		...Object.values(data47),
+		...Object.values(data48),
+		...Object.values(data49),
+		...Object.values(data50),
+		...Object.values(data51),
+		...Object.values(data52),
+		...Object.values(data53),
+		...Object.values(data54),
+		...Object.values(data55),
+		...Object.values(data56),
+		...Object.values(data57),
+		...Object.values(data58),
 	];
 }
